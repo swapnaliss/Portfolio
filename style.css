@@ -40,3 +40,18 @@
 
   /* padding: 0rem 0.8rem; */
 }
+/**header**/
+.hero {
+  padding: 2rem;
+  padding-top: 5rem;
+}
+.hero .hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+.hero .hero-heading {
+  font-size: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+}
