@@ -1,18 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100;200&display=swap");
 
+
 :root {
-  --primary-color: #e91e63;
+  --primary-blue: #3ACCE8;
+  --background-dark: #4b5769;
+  --background-light: #498592;
   --off-white: #e2e8f0;
   --dark-gray: #6b7280;
+  /* background-color:var(--background-dark); */
+}
+html{
+  background-color: var(--background-dark);
 }
 **/ body {
-  font-family: "Antonio", sans-serif;
+  font-family: "Antonio";
 }
 
 /**Navigation*/
 .navigation {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: var(--background-dark);
+  color: var(--primary-blue);
   padding: 1rem;
   border-bottom-left-radius: 1rem;
 }
@@ -23,11 +30,11 @@
 
 .navigation .nav-pills {
   text-align: right;
-  /* padding: 1rem 0rem; */
+  padding: 2rem 0rem;
 }
 
 .navigation .link {
-  color: white;
+  color: var(--primary-blue);
 }
 
 /** To make the selected active tab look highlighted**/
@@ -69,7 +76,10 @@ hr {
 }
 
 .ow {
-  background-color: var(--off-white);
+  background-color: var(--background-light);
+}
+.ob{
+  background-color: var(--background-light);
 }
 /**container**/
 .container {
@@ -88,13 +98,13 @@ hr {
 }
 
 .primary-link {
-  background-color: var(--primary-color);
+  background-color: var(--background-light);
   border-radius: 0.5rem;
   color: white;
 }
 
 .secondary-link {
-  color: var(--primary-color);
+  color: var(--primary-blue);
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
 }
@@ -130,3 +140,67 @@ hr {
 .para {
   text-align: center;
 }
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  padding: 16px;
+  text-align: center;
+  color:var(--primary-blue);
+  margin: auto;
+  height: 400px;
+  border-style: ridge;
+  margin: 10px;
+  
+}
+.card:hover {
+  box-shadow: 0 4px 8px 0 white;
+}
+.column-blog {   
+  float:none;
+  width: 45%;
+  text-align: center;
+  margin-left: 28.33%;
+  height: 200px;
+
+}
+
+
+
+  
+
