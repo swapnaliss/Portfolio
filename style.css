@@ -5,7 +5,7 @@
   --primary-blue: #3ACCE8;
   --background-dark: #303338;
   --background-light: #498592;
-  color: whitesmoke;
+  --off-white: #e2e8f0;
   --dark-gray: #6b7280;
  
 }
@@ -44,6 +44,8 @@ html{
 }
 .navigation li {
   display: inline-block;
+
+  /* padding: 0rem 0.8rem; */
 }
 /**header**/
 .hero {
@@ -59,9 +61,10 @@ html{
   margin: auto;
 }
 .hero .hero-heading {
+  /* font-size: 2rem; */
   padding-top: 1rem;
   text-align: left;
-  color: var(--primary-blue);
+  color: #3ACCE8;
   
 }
 .hero  p{
@@ -82,10 +85,10 @@ hr {
 }
 .section h1 {
   text-align: center;
-  color: var(--primary-blue);
+  color: #3ACCE8;
 }
 
-*container*
+/**container**/
 .container {
   padding: 0rem 1rem;
 }
@@ -116,13 +119,10 @@ hr {
 .list-none-bullet {
   list-style: none;
 }
-.navigation-container a{
-  color: #3ACCE8;
-}
+
 .list-item-inline {
   display: inline;
   padding: 0rem 0.5rem;
-  color: var(--primary-blue);
 }
 .footer {
   background-color: var(--primary-color);
@@ -143,9 +143,6 @@ hr {
 
 .footer ul {
   padding-inline-start: 0px;
-}
-.footer i{
-  color: whitesmoke;
 }
 .para {
   text-align: center;
@@ -209,24 +206,8 @@ body {
   height: 200px;
 
 }
-.card p {
-    min-height: 80px;
-    color:whitesmoke;
-    
-}
 
-.card a{
-  
-  font-size: 25px;
-  color: #3ACCE8;
-margin: 5px;
 
-  
-  
-  /* margin-bottom: 10px; */
-}
-.card h1{
-  min-height: 70px;
-}
+
   
 
